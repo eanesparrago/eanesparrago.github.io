@@ -46,14 +46,23 @@ strong {
   }
 }
 
-.profilePicture {
+.profilePicture-wrapper {
   width: 12rem;
+  height: 12rem;
   margin-right: 3rem;
+  border-radius: 1000px;
+  overflow: hidden;
+  border: 3px solid #F5F5F5;
+}
+
+.profilePicture {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 62.5rem) {
-  .profilePicture {
+  .profilePicture-wrapper {
     margin-bottom: 2rem;
   }
 }
