@@ -23,7 +23,7 @@ html {
 
 body {
   font-size: 16px;
-  background-color: #eceff1;
+  background-color: #e3e7e8;
   color: #263238;
   font-family: "Roboto", sans-serif;
 }
@@ -137,12 +137,20 @@ strong {
 }
 
 .contactItem {
-  display: flex;
-  align-items: center;
   height: 3rem;
   width: 50%;
   margin-bottom: 1rem;
   padding-right: 1rem;
+}
+
+.contactItem a {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.contactItem a:hover {
+  filter: brightness(150%);
 }
 
 @media (max-width: 43.75rem) {
@@ -176,6 +184,12 @@ strong {
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0.04em;
+  transition-duration: 150ms;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #263238;
 }
 
 .resumeButton {
@@ -282,7 +296,7 @@ strong {
   font-weight: 500;
   font-size: 1em;
   line-height: 100%;
-  color: #546e7a;
+  color: #455A64;
 }
 
 .archiveItem__title-text {
@@ -303,7 +317,7 @@ strong {
   font-weight: 500;
   font-size: 1em;
   line-height: 100%;
-  color: #546e7a;
+  color: #455A64;
 }
 
 @media (max-width: 43.75rem) {
@@ -325,12 +339,18 @@ strong {
   align-items: center;
   height: 3rem;
   padding: 0 1.5rem;
-  border: 1px solid #546e7a;
+  border: 1px solid #455A64;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0.04em;
   color: #37474f;
+  transition-duration: 150ms;
+}
+
+.archiveItem__button:hover {
+  color: #ffffff;
+  background-color: #455A64;
 }
 
 .copyright {
