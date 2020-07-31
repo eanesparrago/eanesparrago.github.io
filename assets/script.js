@@ -1,5 +1,3 @@
-console.log("TEST")
-
 const myDate = new Date();
 const hrs = myDate.getHours();
 
