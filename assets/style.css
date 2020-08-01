@@ -30,6 +30,12 @@ small {
   font-weight: 500;
 }
 
+@media (max-width: 62.5rem) {
+  .hideOnMobile {
+    display: none !important;
+  }
+}
+
 .main {
   margin-left: 24rem;
   margin-top: 6rem;
