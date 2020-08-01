@@ -57,7 +57,8 @@ small {
 
 @media (max-width: 43.75rem) {
   .illustration-graphic {
-    opacity: 0.5;
+    transform: scale(0.6);
+    transform-origin: bottom right;
   }
 }
 
@@ -109,7 +110,7 @@ small {
 
 @media (max-width: 62.5rem) {
   .content-wrapper {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
 }
 
