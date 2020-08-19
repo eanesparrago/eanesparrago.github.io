@@ -442,10 +442,13 @@ em {
   }
 }
 
+.testimonial-stars {
+  margin-bottom: 0.5rem;
+}
+
 .testimonial-text {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  margin-bottom: 1rem;
   line-height: 150%;
 }
 
