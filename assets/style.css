@@ -246,7 +246,8 @@ em {
   align-items: center;
   height: 3rem;
   padding: 0 1.5rem;
-  border: 2px solid #fafafa;
+  color: #ffc83d;
+  border: 2px solid #ffc83d;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 100%;
@@ -255,8 +256,8 @@ em {
 }
 
 .button:hover {
-  color: #1e3c72;
-  background-color: #fafafa;
+  color: #000;
+  background-color: #ffc83d;
 }
 
 .resumeButton {
