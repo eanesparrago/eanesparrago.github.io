@@ -23,19 +23,19 @@
 
     <meta
       name="description"
-      content="I'm Ian (nickname) from Philippines. My web development journey began in 2018 then I started working professionally mid 2019. I'm primarily interested in front-end development and UX/UI design."
+      content="I'm Ian (nickname) from Philippines. My mission is to contribute in solving real-world problems through thoughtful design and high-quality front-end development."
     />
 
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
 
     <noscript>
       <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
         rel="stylesheet"
         type="text/css"
       />
@@ -45,12 +45,30 @@
 
     <link rel="stylesheet" href="/assets/style.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
   </head>
 
@@ -59,33 +77,38 @@
       <div class="profilePicture-wrapper">
         <img
           class="profilePicture"
-          src="/assets/images/profile_image.jpg"
-          alt="Ian drinking tea"
+          src="/assets/images/ian_nerd_192.jpg"
+          alt="Ian"
         />
       </div>
 
       <div class="content-wrapper">
-        <h1 class="heading1-text">Hello there</h1>
+        <h1 class="heading1-text">Hello there 👋</h1>
 
         <p class="body-text intro-text">
           I'm
           <strong>Ian</strong> (nickname) from Philippines. My web development
           journey began in 2018 then I started working professionally mid 2019.
-          I'm primarily interested in
-          <strong>
-            front-end development
-          </strong>
-          and <strong>UX/UI design</strong>.
+          My mission is to contribute in solving real-world problems through
+          <em>thoughtful design</em> and
+          <em>high-quality front-end development</em>.
         </p>
 
         <ul class="contact-group">
           <li class="contactItem">
             <a href="mailto: iansanwich@gmail.com">
-              <img
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
                 class="contactItem__icon"
-                src="/assets/svgs/mail.svg"
-                alt="Mail"
-              />
+              >
+                <path
+                  d="M23.5453 8.94375C23.7281 8.79844 24 8.93437 24 9.16406V18.75C24 19.9922 22.9922 21 21.75 21H2.25C1.00781 21 0 19.9922 0 18.75V9.16875C0 8.93438 0.267187 8.80312 0.454687 8.94844C1.50469 9.76406 2.89688 10.8 7.67813 14.2734C8.66719 14.9953 10.3359 16.5141 12 16.5047C13.6734 16.5188 15.375 14.9672 16.3266 14.2734C21.1078 10.8 22.4953 9.75938 23.5453 8.94375ZM12 15C13.0875 15.0188 14.6531 13.6313 15.4406 13.0594C21.6609 8.54531 22.1344 8.15156 23.5687 7.02656C23.8406 6.81562 24 6.4875 24 6.14062V5.25C24 4.00781 22.9922 3 21.75 3H2.25C1.00781 3 0 4.00781 0 5.25V6.14062C0 6.4875 0.159375 6.81094 0.43125 7.02656C1.86563 8.14687 2.33906 8.54531 8.55938 13.0594C9.34688 13.6313 10.9125 15.0188 12 15Z"
+                />
+              </svg>
 
               <span class="contactItem__text"
                 >&#105;&#97;&#110;&#115;&#97;&#110;&#119;&#105;&#99;&#104;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
@@ -95,31 +118,22 @@
 
           <li class="contactItem">
             <a
-              href="https://twitter.com/iansanwich"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                class="contactItem__icon"
-                src="/assets/svgs/twitter.svg"
-                alt="Twitter"
-              />
-
-              <span class="contactItem__text">Twitter</span>
-            </a>
-          </li>
-
-          <li class="contactItem">
-            <a
               href="https://github.com/iansanwich"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <svg
+                width="24"
+                height="26"
+                viewBox="0 0 24 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
                 class="contactItem__icon"
-                src="/assets/svgs/github.svg"
-                alt="Github"
-              />
+              >
+                <path
+                  d="M8.02742 19.8419C8.02742 19.9387 7.91613 20.0161 7.77581 20.0161C7.61613 20.0306 7.50484 19.9532 7.50484 19.8419C7.50484 19.7452 7.61613 19.6677 7.75645 19.6677C7.90161 19.6532 8.02742 19.7306 8.02742 19.8419ZM6.52258 19.6242C6.48871 19.721 6.58548 19.8323 6.73065 19.8613C6.85645 19.9097 7.00161 19.8613 7.03065 19.7645C7.05968 19.6677 6.96774 19.5565 6.82258 19.5129C6.69677 19.479 6.55645 19.5274 6.52258 19.6242ZM8.66129 19.5419C8.52097 19.5758 8.42419 19.6677 8.43871 19.779C8.45323 19.8758 8.57903 19.9387 8.72419 19.9048C8.86452 19.871 8.96129 19.779 8.94677 19.6823C8.93226 19.5903 8.80161 19.5274 8.66129 19.5419ZM11.8452 1C5.13387 1 0 6.09516 0 12.8065C0 18.1726 3.37742 22.7645 8.20161 24.3806C8.82097 24.4919 9.03871 24.1097 9.03871 23.7952C9.03871 23.4952 9.02419 21.8403 9.02419 20.8242C9.02419 20.8242 5.6371 21.55 4.92581 19.3823C4.92581 19.3823 4.37419 17.9742 3.58065 17.6113C3.58065 17.6113 2.47258 16.8516 3.65806 16.8661C3.65806 16.8661 4.8629 16.9629 5.52581 18.1145C6.58548 19.9823 8.36129 19.4452 9.05323 19.1258C9.16452 18.3516 9.47903 17.8145 9.82742 17.4952C7.12258 17.1952 4.39355 16.8032 4.39355 12.1484C4.39355 10.8177 4.76129 10.15 5.53548 9.29839C5.40968 8.98387 4.99839 7.6871 5.66129 6.0129C6.67258 5.69839 9 7.31935 9 7.31935C9.96774 7.04839 11.0081 6.90806 12.0387 6.90806C13.0694 6.90806 14.1097 7.04839 15.0774 7.31935C15.0774 7.31935 17.4048 5.69355 18.4161 6.0129C19.079 7.69194 18.6677 8.98387 18.5419 9.29839C19.3161 10.1548 19.7903 10.8226 19.7903 12.1484C19.7903 16.8177 16.9403 17.1903 14.2355 17.4952C14.6806 17.8774 15.0581 18.6032 15.0581 19.7403C15.0581 21.371 15.0435 23.3887 15.0435 23.7855C15.0435 24.1 15.2661 24.4823 15.8806 24.371C20.7194 22.7645 24 18.1726 24 12.8065C24 6.09516 18.5565 1 11.8452 1ZM4.70323 17.6887C4.64032 17.7371 4.65484 17.8484 4.7371 17.9403C4.81452 18.0177 4.92581 18.0516 4.98871 17.9887C5.05161 17.9403 5.0371 17.829 4.95484 17.7371C4.87742 17.6597 4.76613 17.6258 4.70323 17.6887ZM4.18065 17.2968C4.14677 17.3597 4.19516 17.4371 4.29194 17.4855C4.36935 17.5339 4.46613 17.5194 4.5 17.4516C4.53387 17.3887 4.48548 17.3113 4.38871 17.2629C4.29194 17.2339 4.21452 17.2484 4.18065 17.2968ZM5.74839 19.0194C5.67097 19.0823 5.7 19.2274 5.81129 19.3194C5.92258 19.4306 6.0629 19.4452 6.12581 19.3677C6.18871 19.3048 6.15968 19.1597 6.0629 19.0677C5.95645 18.9565 5.81129 18.9419 5.74839 19.0194ZM5.19677 18.3081C5.11935 18.3565 5.11935 18.4823 5.19677 18.5935C5.27419 18.7048 5.40484 18.7532 5.46774 18.7048C5.54516 18.6419 5.54516 18.5161 5.46774 18.4048C5.4 18.2935 5.27419 18.2452 5.19677 18.3081Z"
+                />
+              </svg>
 
               <span class="contactItem__text">GitHub</span>
             </a>
@@ -131,20 +145,62 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
                 class="contactItem__icon"
-                src="/assets/svgs/linkedin.svg"
-                alt="Linkedin"
-              />
+              >
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M5.20062 21.3336H0.846875V7.31328H5.20062V21.3336ZM3.02141 5.40078C1.62922 5.40078 0.5 4.24765 0.5 2.85547C0.5 2.18675 0.765647 1.54542 1.2385 1.07256C1.71136 0.599708 2.35269 0.334061 3.02141 0.334061C3.69012 0.334061 4.33145 0.599708 4.80431 1.07256C5.27716 1.54542 5.54281 2.18675 5.54281 2.85547C5.54281 4.24765 4.41312 5.40078 3.02141 5.40078ZM21.4953 21.3336H17.1509V14.5086C17.1509 12.882 17.1181 10.7961 14.8873 10.7961C12.6237 10.7961 12.2769 12.5633 12.2769 14.3914V21.3336H7.92781V7.31328H12.1034V9.22577H12.1644C12.7456 8.12421 14.1655 6.96171 16.2837 6.96171C20.69 6.96171 21.5 9.86327 21.5 13.632V21.3336H21.4953Z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect
+                      width="21"
+                      height="24"
+                      fill="white"
+                      transform="translate(0.5 0.333344)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
 
               <span class="contactItem__text">LinkedIn</span>
+            </a>
+          </li>
+
+          <li class="contactItem">
+            <a
+              href="https://twitter.com/iansanwich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="contactItem__icon"
+              >
+                <path
+                  d="M21.533 5.11169C21.5482 5.32488 21.5482 5.53811 21.5482 5.7513C21.5482 12.2538 16.599 19.7462 7.5533 19.7462C4.76648 19.7462 2.17767 18.9391 0 17.5381C0.395953 17.5838 0.776625 17.599 1.18781 17.599C3.48727 17.599 5.60405 16.8224 7.29441 15.4975C5.13197 15.4518 3.31978 14.0356 2.69541 12.0863C3 12.132 3.30455 12.1624 3.62437 12.1624C4.06598 12.1624 4.50764 12.1015 4.91878 11.995C2.66498 11.5381 0.974578 9.55839 0.974578 7.16753V7.10664C1.62937 7.47213 2.39086 7.70055 3.19791 7.73097C1.87303 6.8477 1.00505 5.34011 1.00505 3.63452C1.00505 2.72083 1.24866 1.88327 1.67508 1.1523C4.09641 4.13706 7.73602 6.08627 11.8172 6.2995C11.7411 5.93402 11.6954 5.55335 11.6954 5.17263C11.6954 2.46194 13.8883 0.253845 16.6141 0.253845C18.0304 0.253845 19.3095 0.847752 20.208 1.80714C21.3197 1.59395 22.3857 1.18277 23.3299 0.61933C22.9643 1.76149 22.1877 2.72088 21.1674 3.32997C22.1573 3.22342 23.1167 2.94925 23.9999 2.56858C23.33 3.54316 22.4924 4.41114 21.533 5.11169V5.11169Z"
+                />
+              </svg>
+
+              <span class="contactItem__text">Twitter</span>
             </a>
           </li>
         </ul>
 
         <a
           class="button resumeButton"
-          href="https://drive.google.com/file/d/1P4_AIXXHcI9UiDqpk6H9zQzrpqC3U8vT/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rXZFiGbJyiVovscs2M82wdBK0_RKmqsa/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           >View my resume</a
@@ -152,7 +208,7 @@
 
         <div class="divider-graphic"></div>
 
-        <h2 class="heading2-text">Archive</h2>
+        <h2 class="heading2-text">Portfolio</h2>
 
         <!-- Pet Adoption Catalog -->
 
@@ -174,11 +230,11 @@
             </div>
 
             <h1 class="archiveItem__title-text">
-              Pet Adoption Catalog
+              Pet Adoption Catalog App
             </h1>
 
             <span class="archiveItem__tags-text">
-              Next.js
+              React/Next.js
             </span>
 
             <div class="archiveItem__button-group">
@@ -268,11 +324,11 @@
             </div>
 
             <h1 class="archiveItem__title-text">
-              2019 Web Dev Portfolio
+              2019 Portfolio Design
             </h1>
 
             <span class="archiveItem__tags-text">
-              Next.js
+              React/Next.js
             </span>
 
             <div class="archiveItem__button-group">
@@ -297,7 +353,7 @@
 
         <!-- Logistics Management Web App -->
 
-        <article class="archiveItem">
+        <article class="archiveItem archiveItem--last">
           <div class="archiveItem__image-wrapper">
             <img
               class="archiveItem__image"
@@ -341,13 +397,24 @@
             </div>
           </div>
         </article>
+
+        <section class="testimonial-block">
+          <div class="testimonial-text">
+            <q>
+              Masipag at matiyaga.
+            </q>
+            —&nbsp;Ian's&nbsp;Mom
+          </div>
+
+          <div>⭐⭐⭐⭐</div>
+        </section>
       </div>
     </main>
 
     <div class="copyright">&copy;</div>
 
-    <div class="illustration-graphic">
+    <!-- <div class="illustration-graphic">
       <img src="/assets/svgs/illustration.svg" alt="" />
-    </div>
+    </div> -->
   </body>
 </html>
