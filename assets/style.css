@@ -12,12 +12,10 @@ body {
   font-size: 16px;
   background-color: #1e3c72;
   color: #fafafa;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-attachment: fixed;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   animation-name: enter;
   animation-duration: 1200ms;
 }
@@ -64,44 +62,18 @@ em {
   }
 }
 
-.illustration-graphic {
-  position: fixed;
-  bottom: 0;
-  right: 24rem;
-  z-index: -100;
-}
-
-@media (max-width: 112.5rem) {
-  .illustration-graphic {
-    right: 6rem;
-  }
-}
-
-@media (max-width: 62.5rem) {
-  .illustration-graphic {
-    right: 1.5rem;
-  }
-}
-
-@media (max-width: 43.75rem) {
-  .illustration-graphic {
-    transform: scale(0.6);
-    transform-origin: bottom right;
-  }
-}
+/* The stuff */
 
 .main {
   margin-left: 24rem;
   margin-top: 6rem;
   display: flex;
 }
-
 @media (max-width: 112.5rem) {
   .main {
     margin-left: 6rem;
   }
 }
-
 @media (max-width: 62.5rem) {
   .main {
     margin-left: 1.5rem;
@@ -142,7 +114,6 @@ em {
 .content-wrapper {
   padding-bottom: 7rem;
 }
-
 @media (max-width: 62.5rem) {
   .content-wrapper {
     padding-bottom: 4rem;
@@ -153,7 +124,7 @@ em {
   line-height: 100%;
   font-size: 3em;
   margin: 0;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: #fafafa;
   margin-bottom: 2rem;
@@ -171,7 +142,6 @@ em {
   font-weight: 300;
   color: #fafafa;
 }
-
 @media (max-width: 43.75rem) {
   .body-text {
     font-size: 1em;
@@ -182,7 +152,6 @@ em {
   margin-bottom: 2rem;
   width: 37.5rem;
 }
-
 @media (max-width: 43.75rem) {
   .intro-text {
     margin-bottom: 1.5rem;
@@ -195,7 +164,6 @@ em {
   flex-flow: row wrap;
   margin-bottom: 3rem;
 }
-
 @media (max-width: 43.75rem) {
   .contact-group {
     flex-flow: column;
@@ -219,7 +187,6 @@ em {
 .contactItem a:hover {
   text-decoration-line: underline;
 }
-
 @media (max-width: 43.75rem) {
   .contactItem {
     margin-bottom: 0.75rem;
@@ -235,7 +202,6 @@ em {
   font-size: 1.3125em;
   font-weight: 300;
 }
-
 @media (max-width: 43.75rem) {
   .contactItem__text {
     font-size: 1em;
@@ -264,7 +230,6 @@ em {
 .resumeButton {
   margin-bottom: 3rem;
 }
-
 @media (max-width: 43.75rem) {
   .resumeButton {
     margin-bottom: 2rem;
@@ -276,7 +241,6 @@ em {
   width: 32rem;
   margin-bottom: 4rem;
 }
-
 @media (max-width: 43.75rem) {
   .divider-graphic {
     width: 100%;
@@ -285,13 +249,12 @@ em {
 }
 
 .heading2-text {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.75rem;
   line-height: 100%;
   color: #fafafa;
   margin-bottom: 3rem;
 }
-
 @media (max-width: 43.75rem) {
   .heading2-text {
     font-size: 1.3125rem;
@@ -308,7 +271,6 @@ em {
 .archiveItem--last {
   margin-bottom: 6rem;
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem {
     flex-flow: column;
@@ -323,7 +285,6 @@ em {
   margin-right: 1.5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem__image-wrapper {
     width: 100%;
@@ -342,7 +303,6 @@ em {
   object-fit: cover;
   object-position: top left !important;
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem__image {
     position: absolute;
@@ -359,7 +319,6 @@ em {
   flex-flow: column;
   padding-top: 0.25rem;
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem__detail-block {
     padding-top: 0;
@@ -387,7 +346,6 @@ em {
   color: #ccdfff;
   margin-bottom: 0.75rem;
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem__title-text {
     font-size: 1.1875em;
@@ -400,7 +358,6 @@ em {
   line-height: 100%;
   color: #fafafa;
 }
-
 @media (max-width: 43.75rem) {
   .archiveItem__tags-text {
     margin-bottom: 1.5rem;
@@ -432,25 +389,6 @@ em {
 .archiveItem__button:hover {
   color: #1e3c72;
   background-color: #fafafa;
-}
-
-.testimonial-block {
-  font-size: 1.1875em;
-}
-@media (max-width: 112.5rem) {
-  .testimonial-block {
-    font-size: 1em;
-  }
-}
-
-.testimonial-stars {
-  margin-bottom: 1rem;
-}
-
-.testimonial-text {
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-  line-height: 150%;
 }
 
 .copyright {
