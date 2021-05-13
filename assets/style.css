@@ -147,10 +147,15 @@ em {
     font-size: 1em;
   }
 }
+@media (max-width: 400px) {
+  .body-text {
+    font-size: 0.875em;
+  }
+}
 
 .intro-text {
   margin-bottom: 2rem;
-  width: 37.5rem;
+  width: 40rem;
 }
 @media (max-width: 43.75rem) {
   .intro-text {
