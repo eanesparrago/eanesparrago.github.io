@@ -391,6 +391,16 @@ em {
   background-color: #fafafa;
 }
 
+.archiveItem__button--demo {
+  color: #ffc83d;
+  border: 2px solid #ffc83d;
+}
+
+.archiveItem__button--demo:hover {
+  color: #000;
+  background-color: #ffc83d;
+}
+
 .copyright {
   text-align: center;
   font-size: 1.3125em;
